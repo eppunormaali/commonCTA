@@ -20,9 +20,9 @@ public class ReadWriteExcelFile {
 	{
 		//TÄHÄN MUUTETAAN MUUTTUJANIMI
 		InputStream ExcelFileToRead1 = new FileInputStream("C:/Test.xls");
-		HSSFWorkbook wb = new HSSFWorkbook(ExcelFileToRead1);
-
-		HSSFSheet sheet=wb.getSheetAt(0);
+		HSSFWorkbook wb1 = new HSSFWorkbook(ExcelFileToRead1);
+//OMAWA muutti tuota ExcelFileToRead1 muuttujaa ->ExcelFileToRead2 :ksi ja OMAWA3 muuttaa tuota alla wb muuttujaa
+		HSSFSheet sheet=wb1.getSheetAt(0);
 		HSSFRow row; 
 		HSSFCell cell;
 

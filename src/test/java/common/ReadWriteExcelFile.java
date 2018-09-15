@@ -18,11 +18,19 @@ public class ReadWriteExcelFile {
 
 	public static void readXLSFile() throws IOException
 	{
+<<<<<<< HEAD
 		//TÄHÄN MUUTETAAN MUUTTUJANIMI
 		InputStream ExcelFileToRead1 = new FileInputStream("C:/Test.xls");
 		HSSFWorkbook wb1 = new HSSFWorkbook(ExcelFileToRead1);
 //OMAWA muutti tuota ExcelFileToRead1 muuttujaa ->ExcelFileToRead2 :ksi ja OMAWA3 muuttaa tuota alla wb muuttujaa
 		HSSFSheet sheet=wb1.getSheetAt(0);
+=======
+		//TÄHÄN MUUTETAAN MUUTTUJANIMI ja edelleen muuttaa sitä!
+		InputStream ExcelFileToRead2 = new FileInputStream("C:/Test.xls");
+		HSSFWorkbook wb = new HSSFWorkbook(ExcelFileToRead2);
+
+		HSSFSheet sheet=wb.getSheetAt(0);
+>>>>>>> c6350ee0d38c8ac70f612524c1278804517193c4
 		HSSFRow row; 
 		HSSFCell cell;
 

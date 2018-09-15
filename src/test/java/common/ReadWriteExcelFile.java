@@ -18,8 +18,9 @@ public class ReadWriteExcelFile {
 
 	public static void readXLSFile() throws IOException
 	{
-		InputStream ExcelFileToRead = new FileInputStream("C:/Test.xls");
-		HSSFWorkbook wb = new HSSFWorkbook(ExcelFileToRead);
+		//TÄHÄN MUUTETAAN MUUTTUJANIMI
+		InputStream ExcelFileToRead1 = new FileInputStream("C:/Test.xls");
+		HSSFWorkbook wb = new HSSFWorkbook(ExcelFileToRead1);
 
 		HSSFSheet sheet=wb.getSheetAt(0);
 		HSSFRow row; 

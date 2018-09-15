@@ -1,0 +1,17 @@
+.idea/
+.idea_modules/
+.project
+.settings/
+.DS_Store
+logs/
+*.iml
+/target
+/bin
+.classpath
+*.cer
+*.pyc
+chrome_launcher.sh
+/test-output
+misc.xml
+workspace.xml
+log.txt
